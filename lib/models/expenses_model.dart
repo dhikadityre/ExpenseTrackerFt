@@ -29,7 +29,7 @@ class ExpansesModel {
   final DateTime date;
   final Category category;
 
-  String get formattedDate {
+  String get formattedDate { // computed property getters
     return formatter.format(date);
   }
 }
